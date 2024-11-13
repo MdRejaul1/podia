@@ -11,7 +11,7 @@
 }
 
 .cotainer{
-    max-width: 1000px;
+    max-width: 997px;
 }
  .wrapper{
     width: 80%;
@@ -27,7 +27,16 @@ body{
     #E1EDF2;
     width: 100%;
     padding-inline: 1rem;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+   
  }
+ header menu{
+  visibility: hidden;
+  display: none;
+}
+
 
  header, menu, .nav-third {
     display: flex;
@@ -51,8 +60,10 @@ body{
 /*hero section */
 
 .hero-section{
+    padding-top: 6rem;
     background-color: #E1EDF2;
     margin-bottom: 3rem;
+    padding-bottom: 2rem;
 
 }
 .hero-content{
@@ -98,6 +109,7 @@ body{
 
   .hero-container .hero-img img {
     max-width: 100%;
+    width: 650px;
     display: block;
     height: auto;
    
@@ -172,7 +184,7 @@ body{
 
   /* Take-customers*/
 
-  .Take-customers , .Beautiful-sales-pages{
+  .Take-customers, .Beautiful-sales-pages{
     text-align: center;
     margin-bottom: 3rem;
   }
@@ -289,7 +301,7 @@ body{
   /* image gallary */
   .img-gallary {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     margin-bottom: 3rem;
   }
@@ -304,7 +316,7 @@ body{
   .Turn-your-fans-customers {
     padding-block: 1rem;
     background-color: #E1EDF2;
-     margin-bottom: 3rem;
+    
   }
 
   .Turn-your-fans{
@@ -483,12 +495,142 @@ margin-bottom: 0.5rem;
 
 
 
-@media only screen and (max-width: 998px) {
-    header menu{
-        visibility: hidden;
-        display: none;
-    }
+@media only screen and (min-width: 998px) {
+  header menu{
+    visibility: visible;
+     display: flex;
+
+  }
+
+.hero-container {
+  display: flex;
+  gap: 1rem;
+  
 }
+
+.hero-content h1 {
+  text-wrap: balance;
+  font-size: 2.2rem;
+
+  }
+
+  .Sell-anything h2{
+    font-size: 2.2rem;
+  }
+
+  .card__content h3 {
+    font-size: 1.5rem;
+  }
+
+  .Take-customers h2{
+    font-size: 2rem;
+  }
+
+  .listItem__title{
+font-size: rem;
+  }
+
+  .store-feature .listItem__title {
+    font-size: 2rem;
+
+}
+.ilove-podia-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+
+
+.black-man{
+  max-width: 100%;
+}
+
+.ilove-podia p:first-child{
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.detail{
+  margin-bottom: 2.5rem;
+}
+
+.ilove-podia p:nth-child(2){
+ 
+  line-height: 1.4;
+}
+
+
+.Beautiful-sales-pages {
+  margin-block: 7rem;
+}
+
+.Beautiful-sales-pages h2 {
+  font-size: 2rem;}
+
+  .Beautiful-sales-pages p {
+    font-size: 1.2rem;
+  }
+
+
+.Turn-your-customers{
+  padding-block: 3rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.Turn-your-customers .Turn-your-fans h2{
+  font-size: 2.1rem;
+}
+ .fqu-container {
+  padding-block: 3rem;
+  display: flex;
+  gap: 1rem;
+ }
+
+ .fqu-header{
+  font-size: 2.3rem;
+ }
+
+ .questions-container-row{
+
+  margin-bottom: 2rem;
+}
+
+.questions-container-row p{
+  font-size: 1.4rem;
+}
+
+.podia-trial{
+   padding-top: 3rem;
+}
+
+.podia-trial-container .textLockup {
+  font-size: 2.3rem;
+}
+
+.podia-trial-container-wd{
+  width: 60%;
+  margin-inline: auto;
+ padding-top: 3rem;
+ padding-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 
 
    
